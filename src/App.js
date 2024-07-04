@@ -1,0 +1,20 @@
+import './App.css';
+import Navbaar from './components/header/Navbaar';
+import Maincomp from './components/home/Maincomp';
+import Newnav from './components/newnavbaar/Newnav';
+import Footer from './components/footer/Footer';
+
+
+function App() {
+  return (
+   <>
+   <Navbaar />
+   <Newnav/>
+    <Maincomp/>
+    <Footer />
+   </>
+
+  );
+}
+
+export default App;
