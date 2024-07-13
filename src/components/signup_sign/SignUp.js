@@ -4,11 +4,7 @@ import "./signup.css";
 
 const SignUp = () => {
     const [udata, setUdata] = useState({
-        fname: "",
-        email: "",
-        mobile: "",
-        password: "",
-        cpassword: ""
+    
     });
 
      console.log(udata);
